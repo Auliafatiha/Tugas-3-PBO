@@ -8,10 +8,12 @@ package Modul2;
  *
  * @author LENOVO
  */
+//membuat kelas main yang berfungsi untuk membuat objek dan memberikan nilai pada objek yang terdiri dari beberapa atribut
 public class CommunityMember_react {
     public static void main(String[] args) {
       Administrator admin = new Administrator();
-       admin.setID(1020620);
+      //pemberian nilai dengan set sesuai dengan tipe data atribut
+        admin.setID(1020620);
        admin.setNama("Ahmad Bastomi");
        admin.Setemail("Bastomi@gmail.com");
        admin.setAlamat("jl Basuki Rachmat no 10 Surabaya");
@@ -19,7 +21,7 @@ public class CommunityMember_react {
        admin.setTanggal_masuk(2020, 10, 15);
        
        System.out.println("COMMUNITY MEMBER");
-       
+       // pengksesan nilai atribut menggunakan get .
        System.out.println("===== Data Administrator =====");
        System.out.println("Id Administrator: " + admin.getID());
        System.out.println("Nama Lengkap: " +admin.getNama());
