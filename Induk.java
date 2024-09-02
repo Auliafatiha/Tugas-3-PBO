@@ -10,16 +10,16 @@ import java.time.LocalDate;
  *
  * @author LENOVO
  */
-//mebuat kelas induk yang menjadi acuan utama / pewaris yang memiliki beberapa atribut yaitu id,nama,alamat,email dan tanggal masuk
-public class Induk {
+class Community {
+  
     private int ID;
     private String Nama;
     private String Alamat;
     private String email;
     private java.time.LocalDate Tanggal_masuk;
-    //penggunaan set dan get yang berfungsi untuk memberi nilai atau memodifikasi nilai atribut dan mengakses atribut
-    public void setID(int ID){
-        this.ID = ID;
+    
+     public void setID(int ID){
+     this.ID = ID;
         
     }
     public int getID(){
