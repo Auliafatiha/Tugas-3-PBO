@@ -8,26 +8,26 @@ package Modul2;
  *
  * @author LENOVO
  */
-public class Employee extends Staff{
-//    private String departemen;
-//    private String peran;
+public class Employee extends Community{
+    private String departemen;
+    private String posisi;
     private String supervisor;
     
-//    void setdepartemen(String departemen){
-//        this.departemen = departemen;
-//    }
-//    void setperan(String peran){
-//        this.peran = peran;
-//    }
+    void setdepartemen(String departemen){
+        this.departemen = departemen;
+    }
+    void setposisi(String posisi){
+        this.posisi = posisi;
+    }
     void setsupervisor(String supervisor){
         this.supervisor = supervisor;
     }
-//    String getdeparetemen(){
-//        return departemen;
-//    }
-//    String getposisi(){
-//        return posisi;
-//    }
+    String getdeparetemen(){
+        return departemen;
+    }
+    String getposisi(){
+        return posisi;
+    }
     String getsupervisor(){
         return supervisor;
     }
