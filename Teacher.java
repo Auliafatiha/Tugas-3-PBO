@@ -8,7 +8,7 @@ package Modul2;
  *
  * @author LENOVO
  */
-public class Teacher extends Induk {
+public class Teacher extends Faculty {
     
     private String jurusan ;
     private String mata_kuliah;
