@@ -8,7 +8,7 @@ import java.time.LocalDate;
  *
  * @author LENOVO
  */
-public class Alumnus extends Induk{
+public class Alumnus extends Community{
     private int id_alumnus;
     private String prodi;
     private String fakultas;
@@ -53,3 +53,4 @@ public class Alumnus extends Induk{
         return pekerjaan;
     }
 }
+    
