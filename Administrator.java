@@ -8,17 +8,16 @@ package Modul2;
  *
  * @author LENOVO
  */
-// extends artinya Administrator mengambil atribut pada induk atau mewarisi atribut induk 
-//extends menghindari adanya penulisan ulang atribut dimana pada suatu class membutuhkan atribut yang sama yang dimiliki oleh kelas lain
-// sehingga pengguna extends hanya perlu menulis atau menambahkan atribut yang ia perlu
-public class Administrator extends Induk {
-    private String departemen;
+public class Administrator extends Faculty {
+    private String bagian_manajemen;
     
-    public void setdepartemen(String departemen){
-    this.departemen = departemen;
+    public void setbagian_manajemen(String bagian_manajemen){
+    this.bagian_manajemen = bagian_manajemen;
     }
-    public String getdepartemen(){
-        return departemen;
+    public String getbagian_manajemen(){
+        return bagian_manajemen;
     }
 }
+
+
 
