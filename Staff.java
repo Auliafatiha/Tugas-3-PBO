@@ -8,30 +8,19 @@ package Modul2;
  *
  * @author LENOVO
  */
-public class Staff extends Faculty {
-//    private String peran;
-//    private String departemen;
+public class Staff extends Employee {
+//   
     private String keahlian;
     private String status_kepegawaian;
     
-//    void setposisi(String posisi){
-//        this.posisi = posisi;
-//    }
-//    void setdepartemen(String departemen){
-//      this.departemen = departemen;  
-//    }
+//   
     void setkeahlian(String keahlian){
         this.keahlian = keahlian;
     }
     void setstatus_kepegawaian(String status_kepegawaian){
         this.status_kepegawaian=status_kepegawaian;
     }
-//    String getposisi(){
-//        return posisi;
-//    }
-//    String getdepartemen(){
-//        return departemen;
-//    }
+
     String getkeahlian(){
         return keahlian;
     }
