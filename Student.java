@@ -8,7 +8,7 @@ package Modul2;
  *
  * @author LENOVO
  */
-public class Student extends Induk {
+public class Student extends Community{
     private String prodi;
     private String fakultas;
     private int semester;
