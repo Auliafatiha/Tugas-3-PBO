@@ -8,20 +8,32 @@ package Modul2;
  *
  * @author LENOVO
  */
-public class Faculty extends Administrator{
-    private String peran ;
-//    private String departemen;
-    public void setperan(String peran){
-this.peran = peran;  
+public class Faculty extends Employee{
+    private String Fakultas ;
+    private String keahlian;
+    private String status_kepegawaian;
+//    
+    public void setFakultas(String Fakultas){
+this.Fakultas = Fakultas;  
     }
-    String getperan(){
-        return peran;
+//    String getFakultas(){
+//        return Fakultas;
+//    }
+    void setkeahlian(String keahlian){
+        this.keahlian = keahlian;
     }
-//    void setdepartemen(String departemen){
-//        this.departemen = departemen;
-//    }
-//    String getdepartemen(){
-//        return departemen;
-//    }
+void setstatus_kepegawaian(String  status_kepegawaian){
+        this.status_kepegawaian = status_kepegawaian;
+    }
+    String getfakultas(){
+        return Fakultas;
+    }
+    String getkeahlian(){
+        return keahlian;
+    } 
+    String getstatus_kepegawaian(){
+        return status_kepegawaian;
+    }
+    
     
 }
